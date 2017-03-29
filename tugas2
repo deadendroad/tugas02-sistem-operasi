@@ -18,7 +18,7 @@ PROCESS_INFORMATION pi;
      NULL, /* don't inherit thread handle */
      FALSE, /* disable handle inheritance */
      0, /* no creation flag */
-     NULL, /* ude parent's environment block */
+     NULL, /* use parent's environment block */
      NULL, /* use parent's existing directory */
      &si,
      &pi))
